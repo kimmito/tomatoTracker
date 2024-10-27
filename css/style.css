@@ -1,0 +1,201 @@
+:root{
+    --accent-color: black;
+    --secondary-color: white;
+    --secondary-background: #F5F5F5;
+}
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.219);
+    z-index: 1;
+}
+.header__logo{
+    margin: 0 20px;
+}
+.header__title{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.downloads{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 30px 100px 30px;
+    background-color: var(--secondary-background);
+}
+.downloads::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+.download__title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 4em;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+.download__button{
+    width: 200px;
+    background-color: var(--accent-color);
+    color: #d1d1d1;
+    font-size: 1.1em;
+    height: 50px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.download__button:hover{
+    border: 2px solid rgb(192, 192, 192);
+    color: var(--secondary-color)
+}
+
+
+.download__list{
+    font-family: 'Open Sans', 'sans-serif';
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.download__item{
+    display: inline-block;
+    margin: 10px;
+}
+
+.download__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width:200px;
+    height:60px;
+    border:none;
+    background-color:#ddd;
+    outline:none;
+    cursor:pointer;
+    transition:background-color 0.2s;
+}
+
+.btn__logo{
+    width:30px;
+    height:30px;
+    float:left;
+    margin: 10px 0 14px 20px;
+    position:relative;
+}
+
+.btn__content{
+    width: 105px;
+    height:28px;
+    font-size:12px;
+    float:right;
+    margin-right:15px;
+    text-align:left;
+    color: white;
+}
+
+.btn__content--big{
+    height:22px;
+    font-size:22px;
+    margin-bottom: 4px;
+}
+
+.btn--ios{
+    margin-right: 25px;
+    background-color:#3b5a9b;
+    color: #fff;
+}
+.btn--ios:hover{
+    background-color: #22396b;
+}
+
+.btn--android{
+    margin-left: 25px;
+    background-color: #a2c437;
+    color: #fff;
+}  
+.btn--android:hover{
+    background-color: #6e881b;
+}
+.btn--radius{
+    border-radius:30px;
+}
+
+/*  */
+
+.advantages, .advantages__list{
+    margin-top: 50px;
+}
+.advantages__title{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.advantages__subtitle{
+    font-weight: 400;
+    font-size: 1.5em;
+    opacity: .75;
+    text-align: center;
+}
+.advantages__list{
+
+}
+.col{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: var(--secondary-background);
+    color: #585858;
+    border-top: 2px solid rgba(128, 128, 128, 0.219);
+    padding: 15px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.organization{
+    letter-spacing: 1.2px;
+}
+.year{
+    letter-spacing: 2.5px;
+}
