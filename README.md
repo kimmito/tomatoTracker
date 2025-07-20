@@ -29,12 +29,6 @@
 | Анимации       | Animate.css             |
 | Иконки         | SVG (кастомные)         |
 
-## 📸 Скриншоты
-
-<div align="center">
-  <img src="screenshots/desktop.jpg" width="45%" alt="Десктоп версия">
-  <img src="screenshots/mobile.jpg" width="25%" alt="Мобильная версия">  
-</div>
 
 ## 🚀 Быстрый старт
 
